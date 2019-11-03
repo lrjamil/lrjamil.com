@@ -1,0 +1,154 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("container_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+.container_area_control{
+    box-sizing: border-box;
+}
+.area1{
+    height: 320px;
+    width: 450px;
+    margin-top: -460px;
+    margin-left: 80px;
+    border: 5px solid white;
+    overflow: hidden;
+    float: left;
+}
+.mySlides{
+    height: 350px;
+}
+.area2{
+    height: 320px;
+    width: 580px;
+   /* border: 3px solid green;
+
+   */
+    float: left;
+    margin-top: -460px;
+    margin-left: 580px;
+    border-radius: 5px;
+}
+.area2 h1{
+    padding: 10px 0 10px 10px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+/*
+.opacity_control{
+    height: 500px;
+    width: 100%;
+    margin-top: -511px;
+    background-color: rgba(173, 170, 170, 0.521);
+}*/
+.social_icon{
+    margin-left: 180px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+.fb{
+    float: left;
+    padding-right: 5px;
+}
+.social_icon i{
+    padding: 8px;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.fb i{
+    padding-left: 13px;
+    padding-right: 5px;   
+    padding-top: 9px;
+    padding-bottom: 7px;
+    background-color: #3b5999;
+    color: white;
+}
+.instra, .twitter, .ln, .youtube{
+    float: left;
+    padding-right: 5px;
+}
+.instra i{
+    background-color: #e4405f;
+    color: white;
+}
+.twitter i{
+    background-color: #55acee;
+    color: white;
+}
+.ln i{
+    background-color: #0077B5;
+    color: white;
+}
+.youtube i{
+    background-color: #cd201f;
+    color: white;
+}
+.fb i:hover, .instra i:hover, .twitter i:hover, .ln i:hover, .youtube i:hover{
+    opacity: 0.8;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(49, 49, 49, 0.911);
+    position: fixed;
+    bottom: 0;
+}
+.copyright{
+    text-align: center;
+    color: rgb(194, 192, 192);
+    margin-top: 10px;
+}
+.my_name{
+    color: rgb(235, 235, 235);
+}
+
+
+
+
+.ta{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: rgba(124, 124, 124, 0.705);
+    padding: 5px;
+    width: 470px;
+}
+
+.ta{
+    animation: type 20s steps(45);
+    overflow: hidden;white-space: nowrap;
+    font-family: arial;
+    border right: 2px solid black;
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 45ch;
+    }
+}
+.wd{
+    color: rgb(8, 214, 8);
+}
+.pm{
+    color:  rgb(228, 57, 57);
+}
+.fl{
+    color: white;
+}
+.et{
+    color: green;
+}
+.wt{
+    color: blue;
+}

@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    box-sizing: border-box;
+    background-color: rgba(238, 213, 213, 0.288);;
+    height: 98vh;
+    width: 90%;
+    padding-top: 100px;
+    margin-left: 5%;
+}
+.project_2, .project_3, .project_4, .project_5, .project_6, .project_7, .project_8{
+    border-top: 3px solid green;
+    border-bottom: 3px solid red;
+    border-right: 3px solid orange;
+    border-left: 3px solid blue;
+    height: 200px;
+    width: 180px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.project_1, .project_6{
+    border-top: 3px solid green;
+    border-bottom: 3px solid red;
+    border-right: 3px solid orange;
+    border-left: 3px solid blue;
+    height: 200px;
+    width: 180px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.project_1 img{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.project_1 img{
+    height: 150px;
+    width: 150px;
+}
+.project_2 img{
+    float: left;
+    height: 150px;
+    width: 110px;
+    padding-left: 32px;
+    padding-top: 13px;
+}
+.project_3 img{
+    float: left;
+    height: 160px;
+    width: 180px;
+    padding: 0;
+    padding-top: 7px;
+}
+.project_4 img{
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.project_5 img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+.project_6 img{
+    float: left;
+    height: 135px;
+    width: 135px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.project_7 img{
+    float: left;
+    height: 150px;
+    width: 180px;
+    padding-left: 0px;
+}
+.project_8 img{
+    float: left;
+    height: 165px;
+    width: 180px;
+    padding-left: 0px;
+    margin-top: -0.2px;
+}
+.completed{
+    height: 30px;
+    //background-color: rgb(221, 165, 165);
+}
+.completed2{
+    //background-color: green;
+    height: 30px;
+    width: 100%;
+    margin-top: 170px;
+}
+
+
+
+
+
+
+
+.skillname{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 3px;
+}
+.skillarea{
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.skillposition{
+    float: left;
+    padding-left: 15px;
+    margin-top: -3px;
+}
+.skill{
+    background: white;
+    padding: 1px;
+    border: 1px solid #ff5722;
+  }
+  .skill_level{
+    background: #00ee7f;
+    height: 6px;
+  }
+  .project_6, .project_7, .project_8{
+    border-top: 3px solid green;
+    border-bottom: 3px solid red;
+    border-left: 3px solid orange;
+    border-right: 3px solid blue;
+}

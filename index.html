@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LR.Jamil</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="file:///F:/Project/HTML%20&%20CSS/fontawesome-free-5.10.2-web%20offline/css/all.css"><!--Font awsome offline icon link-->
+        <link rel="icon" type="jpg/png" href="icon.jpg">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous"><!--Font awsome online icon link-->
+    </head>
+
+<body>
+    <div class="header">
+            <div class="left_menu">
+                <a href="index.html"><img src="lr_logo.png" alt="lr.logo" title="LR.Jamil"></a>
+             </div>
+             <div class="right_menu">
+                    <ul>
+                      <li><a class="active" href="index.html"> Home </a></li>
+                      <li><a href="about.html"> About </a></li>
+                      <li><a href="project.html"> Project </a></li>
+                      <li><a href="gallery.html"> Gallery </a></li>
+                      <li><a href="contect.html"> Contect </a></li>
+                    </ul>
+             </div>
+    </div>
+    
+    <div class="container">
+    </div>
+
+    <div class="container_area_control">
+     <div class="area1">
+            <img class="mySlides" src="profile_pic_1.jpg" style="width:100%">
+            <img class="mySlides" src="profile_pic_2.jpg" style="width:100%">
+            <img class="mySlides" src="profile_pic_3.jpg" style="width:100%">
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+      </div>
+      <div class="area2">
+        <h1>Lutfur Rahman Jamil</h1>
+        <p class="ta"><span class="wd">Web Designer </span><span class="fl">Freelancer</span><span class="pm"> Programmer</span> <span class="et">Editor </span><span class="wt">Writer</span></p>
+        <!--
+        <p>Freelancer</p>
+        <p>Programmer</p>
+        <p>Editor</p>
+        <p>Writer</p>-->
+        <div class="social_icon">
+           <div class="fb">
+             <a href="https://www.facebook.com/LR.Jamil" target="_blenk"><i class="fab fa-facebook-f"></i></a>
+           </div>
+           <div class="instra">
+              <a href="https://www.instagram.com/lrjamil/" target="_blenk"><i class="fab fa-instagram"></i></a>
+            </div>
+          <div class="twitter">
+              <a href="https://twitter.com/LR_jamil" target="_blenk"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="youtube">
+              <a href="https://www.youtube.com/channel/UCL318V2Bn2h-kIN92B_YXaA?view_as=subscriber" target="_blenk"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="ln">
+              <a href="https://www.linkedin.com/in/lutfur-rahman-jamil/" target="_blenk"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="opacity_control">
+
+    </div>
+     
+    <div class="footer">
+        <div class="copyright">
+            &copy; Copyright: 2019<span class="my_name">&nbsp; LR.Jamil</span>
+          </div>
+    </div>
+</body>
+</html>
